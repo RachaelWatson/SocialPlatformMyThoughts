@@ -1,0 +1,30 @@
+.postContainer {
+width: 93%;
+ display: flex;
+flex-direction: row;
+margin-top: 20px;
+margin-bottom: 10px;
+border-bottom: 1px solid rgb(175, 169, 169);
+}
+
+.title {
+    width: 70%;
+    font-size: 24px;
+  flex-grow: 1;
+}
+.container-2{
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.trashcan  {
+    border: none;
+    background: none;
+    font-size: x-large;
+    width: 15%;
+    margin: 0;
+    margin-right: 10px;
+  justify-items: flex-end;
+   
+    }
+    

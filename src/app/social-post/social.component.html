@@ -1,0 +1,12 @@
+<body>
+<h1>My Thoughts</h1>
+
+<div>
+    <button type="button" (click)="openDialog()" id="newThought">New Thought</button>
+    <ol>
+        <app-post *ngFor="let newPost of posts; let i = index;"  (deleted)="deletePost(i)" [title] = "newPost.title" [thought] = "newPost.thought"></app-post>
+    </ol>
+</div>
+</body>
+
+<!-- [title] = "update.title" [thought] = "update.thought" -->

@@ -1,0 +1,30 @@
+
+
+form {
+    width: 50%;
+    background-color: #B1DDEA;
+}
+.formInput {
+width: 200%;
+    border: 1px black solid;
+    border-radius: 3px;
+    text-indent: 10px;
+}
+
+#newThought {
+    height: 4vh;
+
+}
+
+#newDescription {
+    height: 10vh;
+}
+
+#formButton {
+    width: 200%;
+    height: 4vh;
+    border: 1px black solid;
+    border-radius: 3px;
+    margin-top: 10px;
+
+}
